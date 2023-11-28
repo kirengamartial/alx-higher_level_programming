@@ -4,6 +4,7 @@ def add(a, b):
     """Add two integers."""
     return a + b
 
+
 if __name__ == "__main__":
     add = __import__('10-add').add
 
